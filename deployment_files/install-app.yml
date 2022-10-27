@@ -1,0 +1,67 @@
+---
+- hosts: localhost
+  vars:
+    input: "{{ lookup('file','secrets.json') | from_json }}"
+  tasks:
+     - name: Set Facts
+       set_fact:
+         token: "{{ input.variables.token }}"
+         username: "{{ input.variables.username }}"
+     #- name: Clone a private repository into /opt.
+     #  git:
+     #    repo: https://github.ncsu.edu/csc510-s2022/CSC510-25
+     #    version: master
+     #    dest: repos/CSC510-25
+     #    accept_hostkey: yes
+       # ssh-agent doesn't allow key to pass through remote sudo commands.
+     #  become: no
+     - name: Clone Bot Repository
+       git:
+         repo: https://{{username}}:{{token}}@github.ncsu.edu/csc510-s2022/CSC510-25.git
+         version: dev
+         dest: repos/CSC510-25
+         force: yes
+       
+     - name: Install nodejs
+       shell: cd ~; curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh; sudo bash /tmp/nodesource_setup.sh; sudo apt install nodejs
+       become: yes
+     - name: Install forever
+       community.general.npm:
+         name: forever
+         global: yes
+         state: latest
+       become: yes
+     - name: Latest Version of Nodejs
+       shell: cp -v env_file/.env repos/CSC510-25
+       become: yes 
+       
+     - name: Copy .env to git repo folder
+       shell: cp -v env_file/.env repos/CSC510-25
+       become: yes 
+
+     - name: test the packages
+       shell: sudo apt-get install {{ item }}
+       loop:
+         - openssl
+         - bash
+         - openssh-server
+         - openssh-client
+       become: yes
+     - name: Install packages based on package-lock.json using the npm installed
+       npm:
+         path: repos/CSC510-25
+       become: yes
+
+     - name: Start the application
+       command:
+         chdir: repos/CSC510-25
+         cmd: forever start index.js
+       become: yes
+       async: 1000
+       poll: 0
+
+     - name: Ensure app is running
+       shell: ps aux | grep node
+       register: app_status
+      
+     - debug: msg={{app_status.stdout_lines}}-

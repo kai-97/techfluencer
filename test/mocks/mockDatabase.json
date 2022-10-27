@@ -1,0 +1,24 @@
+[
+    {
+        "_id":"623e139125b98b8ee8d79617",
+        "name":"Octocat",
+        "username":"octocat",
+        "gh_id":"octocat",
+        "so_id":"5875416",
+        "gh_points":400,
+        "so_points":610.9,
+        "total_points":1010.9,
+        "gh_email":"octocat@email.com"
+    },
+    {
+        "_id":"623e139125b98b8ee8d79618",
+        "name":"Tony Stark",
+        "username":"ironman",
+        "gh_id":"jarvis",
+        "so_id":"5875416",
+        "gh_points":1000,
+        "so_points":210.3,
+        "total_points":1210.3,
+        "gh_email":"jarvis@email.com"
+    }
+]

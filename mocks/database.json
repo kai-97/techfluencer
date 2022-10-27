@@ -1,0 +1,32 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "username": "Kaivan Shah",
+        "github_id": "kshah23",
+        "github_points": 10,
+        "mattermost_points": 3
+      },
+      {
+        "id": 2,
+        "username": "FNU Roshani",
+        "github_id": "rlnu",
+        "github_points": 4,
+        "mattermost_points": 2
+      },
+      {
+        "id": 3,
+        "username": "Manasi Ghosalkar",
+        "github_id": "mghosal",
+        "github_points": 5,
+        "mattermost_points": 6
+      },
+      {
+        "id": 4,
+        "username": "Rahul Shukla",
+        "github_id": "rshukla3",
+        "github_points": 7,
+        "mattermost_points": 2
+      }
+    ]
+  }

@@ -1,0 +1,141 @@
+{
+    "items": [
+      {
+        "tags": [
+          "python"
+        ],
+        "owner": {
+          "account_id": 576267,
+          "reputation": 1091,
+          "user_id": 232360,
+          "user_type": "unregistered",
+          "profile_image": "https://www.gravatar.com/avatar/b437b09e0dcad26732ccf53d591913d0?s=256&d=identicon&r=PG",
+          "display_name": "Jake",
+          "link": "https://stackoverflow.com/users/232360/jake"
+        },
+        "is_answered": true,
+        "view_count": 155852,
+        "protected_date": 1365075623,
+        "closed_date": 1597409183,
+        "answer_count": 2,
+        "score": 105,
+        "last_activity_date": 1597402117,
+        "creation_date": 1260902806,
+        "last_edit_date": 1597402117,
+        "question_id": 1909512,
+        "link": "https://stackoverflow.com/questions/1909512/what-is-python-used-for",
+        "closed_reason": "Opinion-based",
+        "title": "What is Python used for?"
+      },
+      {
+        "tags": [
+          "python"
+        ],
+        "owner": {
+          "account_id": 6807608,
+          "reputation": 2561,
+          "user_id": 5238892,
+          "user_type": "registered",
+          "accept_rate": 0,
+          "profile_image": "https://www.gravatar.com/avatar/b27ed4cd2a119f7efeaad687f11403cb?s=256&d=identicon&r=PG&f=1",
+          "display_name": "Cloud",
+          "link": "https://stackoverflow.com/users/5238892/cloud"
+        },
+        "is_answered": true,
+        "view_count": 8681,
+        "answer_count": 2,
+        "score": 25,
+        "last_activity_date": 1624894413,
+        "creation_date": 1518233622,
+        "last_edit_date": 1592644375,
+        "question_id": 48716943,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/48716943/what-is-python-implicit-relative-import",
+        "title": "What is Python implicit relative import"
+      },
+      {
+        "tags": [
+          "python"
+        ],
+        "owner": {
+          "account_id": 2274872,
+          "reputation": 821,
+          "user_id": 2001421,
+          "user_type": "registered",
+          "accept_rate": 77,
+          "profile_image": "https://www.gravatar.com/avatar/938048cae9e71f1d3c121b640048a249?s=256&d=identicon&r=PG&f=1",
+          "display_name": "Zero Days",
+          "link": "https://stackoverflow.com/users/2001421/zero-days"
+        },
+        "is_answered": true,
+        "view_count": 157,
+        "closed_date": 1442174893,
+        "answer_count": 2,
+        "score": 2,
+        "last_activity_date": 1442153131,
+        "creation_date": 1442148476,
+        "last_edit_date": 1442150326,
+        "question_id": 32549832,
+        "link": "https://stackoverflow.com/questions/32549832/what-is-python-interpreter-bytecode-languages",
+        "closed_reason": "Needs more focus",
+        "title": "what is python interpreter bytecode languages"
+      },
+      {
+        "tags": [
+          "python",
+          "systemtap"
+        ],
+        "owner": {
+          "account_id": 21426,
+          "reputation": 16540,
+          "user_id": 52074,
+          "user_type": "registered",
+          "accept_rate": 67,
+          "profile_image": "https://www.gravatar.com/avatar/dd14249e07e1f1d6a949bffa569377ad?s=256&d=identicon&r=PG",
+          "display_name": "Trevor Boyd Smith",
+          "link": "https://stackoverflow.com/users/52074/trevor-boyd-smith"
+        },
+        "is_answered": true,
+        "view_count": 323,
+        "accepted_answer_id": 49728613,
+        "answer_count": 1,
+        "score": 0,
+        "last_activity_date": 1523262651,
+        "creation_date": 1509981040,
+        "question_id": 47140035,
+        "content_license": "CC BY-SA 3.0",
+        "link": "https://stackoverflow.com/questions/47140035/what-is-python-doing-with-systemtap",
+        "title": "what is python doing with systemtap?"
+      },
+      {
+        "tags": [
+          "java",
+          "python",
+          "sockets"
+        ],
+        "owner": {
+          "account_id": 14553087,
+          "reputation": 113,
+          "user_id": 10511361,
+          "user_type": "registered",
+          "profile_image": "https://graph.facebook.com/1890887187632178/picture?type=large",
+          "display_name": "Abhishek Pratap Singh",
+          "link": "https://stackoverflow.com/users/10511361/abhishek-pratap-singh"
+        },
+        "is_answered": true,
+        "view_count": 844,
+        "answer_count": 2,
+        "score": 0,
+        "last_activity_date": 1563779882,
+        "creation_date": 1563778148,
+        "last_edit_date": 1563778709,
+        "question_id": 57140491,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/57140491/what-is-python-equivalent-of-getinputstream-and-getoutputstream",
+        "title": "what is python equivalent of getInputStream() and getOutputStream()?"
+      }
+    ],
+    "has_more": true,
+    "quota_max": 10000,
+    "quota_remaining": 9980
+  }

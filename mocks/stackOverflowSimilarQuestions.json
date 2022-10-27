@@ -1,0 +1,141 @@
+{
+    "items": [
+      {
+        "tags": [
+          "python",
+          "compiler-errors",
+          "simd",
+          "pythran"
+        ],
+        "owner": {
+          "account_id": 6855214,
+          "reputation": 2100,
+          "user_id": 6037118,
+          "user_type": "registered",
+          "accept_rate": 96,
+          "profile_image": "https://www.gravatar.com/avatar/0905961c4d6422eced39052412e7d703?s=256&d=identicon&r=PG",
+          "display_name": "Matt",
+          "link": "https://stackoverflow.com/users/6037118/matt"
+        },
+        "is_answered": false,
+        "view_count": 36,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1647650381,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1647048670,
+        "creation_date": 1646867449,
+        "last_edit_date": 1647048670,
+        "question_id": 71417043,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/71417043/pythran-with-xsimd-python-compiled-c-module-pyd-fails-to-compile-how-to",
+        "title": "Pythran with XSIMD (Python compiled C++ module PYD) - fails to compile - how to bypass the Pythran XSIMD bug? Code loop rewrite potentially fixes it"
+      },
+      {
+        "tags": [
+          "python"
+        ],
+        "owner": {
+          "account_id": 24206449,
+          "reputation": 19,
+          "user_id": 18163581,
+          "user_type": "registered",
+          "profile_image": "https://lh3.googleusercontent.com/a/AATXAJxSKSltE5Y-OxGeQNFNzfuElGOwvb8dA83QPy4X=k-s256",
+          "display_name": "Teja D",
+          "link": "https://stackoverflow.com/users/18163581/teja-d"
+        },
+        "is_answered": true,
+        "view_count": 21,
+        "answer_count": 2,
+        "score": 1,
+        "last_activity_date": 1647048643,
+        "creation_date": 1647045386,
+        "last_edit_date": 1647045642,
+        "question_id": 71446030,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/71446030/two-sum-leetcode-problem-error-attributeerror-list-object-has-no-attribute",
+        "title": "Two Sum leetcode problem error: &#39;AttributeError: &#39;list&#39; object has no attribute &#39;twoSum&#39;&#39;"
+      },
+      {
+        "tags": [
+          "python",
+          "linked-list"
+        ],
+        "owner": {
+          "account_id": 24531792,
+          "reputation": 1,
+          "user_id": 18443444,
+          "user_type": "registered",
+          "profile_image": "https://lh3.googleusercontent.com/a-/AOh14Gg0-7SFZMiy4f5pA_PCsIyCQ9TFDqvhSfrRl3ZMKw=k-s256",
+          "display_name": "Nikhil Kadalge",
+          "link": "https://stackoverflow.com/users/18443444/nikhil-kadalge"
+        },
+        "is_answered": false,
+        "view_count": 3,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1647048612,
+        "creation_date": 1647048612,
+        "question_id": 71446294,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/71446294/given-a-singly-linked-list-of-integers-l-and-an-integer-k-remove-all-elements-f",
+        "title": "Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to kc"
+      },
+      {
+        "tags": [
+          "python",
+          "csv",
+          "iteration",
+          "row"
+        ],
+        "owner": {
+          "account_id": 24531868,
+          "reputation": 1,
+          "user_id": 18443510,
+          "user_type": "registered",
+          "profile_image": "https://www.gravatar.com/avatar/75a2a1d0cd99478f01a0e8433fbc8325?s=256&d=identicon&r=PG",
+          "display_name": "InsideTheEight",
+          "link": "https://stackoverflow.com/users/18443510/insidetheeight"
+        },
+        "is_answered": false,
+        "view_count": 5,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1647048439,
+        "creation_date": 1647048439,
+        "question_id": 71446277,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/71446277/iterate-through-a-csv-and-select-row-based-on-condition-and-then-select-the-row",
+        "title": "Iterate through a CSV and select row based on condition, and then select the row before it"
+      },
+      {
+        "tags": [
+          "python",
+          "authentication",
+          "pysmb"
+        ],
+        "owner": {
+          "account_id": 24532100,
+          "reputation": 1,
+          "user_id": 18443702,
+          "user_type": "registered",
+          "profile_image": "https://www.gravatar.com/avatar/930a8542f3eb08e217258abbcab30d3c?s=256&d=identicon&r=PG",
+          "display_name": "user18443702",
+          "link": "https://stackoverflow.com/users/18443702/user18443702"
+        },
+        "is_answered": false,
+        "view_count": 3,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1647048432,
+        "creation_date": 1647048432,
+        "question_id": 71446275,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/71446275/pysmb-listpath-method-return-error-smb-connection-not-authenticated",
+        "title": "pysmb listpath method return error &quot;SMB connection not authenticated&quot;"
+      }
+    ],
+    "has_more": true,
+    "quota_max": 10000,
+    "quota_remaining": 9981
+  }

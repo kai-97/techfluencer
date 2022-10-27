@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+     - name: Kill Nodes
+       shell: killall node
+       become: yes
